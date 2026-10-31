@@ -41,7 +41,21 @@ Sinh viên: Trần Hồng Phát - MSSV: 235624
 - Trạng thái (status): Đang sử dụng, Hư hỏng, Đang sửa chữa, Ngừng sử dụng
 - Dữ liệu mẫu: `backend/seed-devices.json`
 - Cấu hình kết nối: sao chép `backend/.env.example` thành `backend/.env` rồi điền thông tin thật (không đưa `.env` lên GitHub)
+
 ## Live Deployment URLs
 - **Frontend URL:** https://frontend-235624-tranhongphat.onrender.com
   - Triển khai trên Render, kết nối tới backend API qua biến môi trường địa chỉ backend.
 - **Backend API URL:** https://api-235624-tranhongphat.onrender.com
+  - Triển khai trên Render, kết nối MongoDB Atlas qua biến môi trường, đã cấu hình CORS cho frontend.
+- **Health check:** https://api-235624-tranhongphat.onrender.com/health
+
+## API
+| Phương thức | Endpoint | Chức năng |
+|---|---|---|
+| GET | /health | Kiểm tra trạng thái backend |
+| GET | /api/devices | Lấy danh sách thiết bị |
+| GET | /api/devices?search=projector | Tìm kiếm thiết bị |
+| GET | /api/devices/:id | Xem một thiết bị |
+| POST | /api/devices | Thêm thiết bị |
+| PUT | /api/devices/:id | Cập nhật thiết bị |
+| DELETE | /api/devices/:id | Xóa thiết bị |
