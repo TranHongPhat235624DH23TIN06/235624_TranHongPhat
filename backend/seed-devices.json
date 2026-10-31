@@ -1,0 +1,38 @@
+[
+  {
+    "deviceId": "TB001",
+    "name": "Máy chiếu Epson",
+    "deviceType": "Máy chiếu",
+    "room": "A101",
+    "brand": "Epson",
+    "model": "EB-X06",
+    "quantity": 1,
+    "status": "Đang sử dụng",
+    "purchaseDate": "2023-08-15",
+    "description": "Máy chiếu phòng học A101"
+  },
+  {
+    "deviceId": "TB002",
+    "name": "Máy tính để bàn",
+    "deviceType": "Máy tính",
+    "room": "B203",
+    "brand": "Dell",
+    "model": "OptiPlex 3080",
+    "quantity": 20,
+    "status": "Đang sử dụng",
+    "purchaseDate": "2022-09-01",
+    "description": "Máy tính phòng thực hành B203"
+  },
+  {
+    "deviceId": "TB003",
+    "name": "Loa hội trường",
+    "deviceType": "Thiết bị âm thanh",
+    "room": "C301",
+    "brand": "JBL",
+    "model": "EON615",
+    "quantity": 2,
+    "status": "Hư hỏng",
+    "purchaseDate": "2021-05-20",
+    "description": "Loa bị rè âm, chờ sửa chữa"
+  }
+]

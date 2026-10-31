@@ -33,3 +33,11 @@ Sinh viên: Trần Hồng Phát - MSSV: 235624
    - `cd frontend`
    - `npm install`
    - `npm run dev`
+   
+## Cơ sở dữ liệu MongoDB Atlas
+- Database: `235624_TranHongPhat`
+- Collection: `devices`
+- Các trường: deviceId, name, deviceType, room, brand, model, quantity, status, purchaseDate, description
+- Trạng thái (status): Đang sử dụng, Hư hỏng, Đang sửa chữa, Ngừng sử dụng
+- Dữ liệu mẫu: `backend/seed-devices.json`
+- Cấu hình kết nối: sao chép `backend/.env.example` thành `backend/.env` rồi điền thông tin thật (không đưa `.env` lên GitHub)
