@@ -43,4 +43,5 @@ Sinh viên: Trần Hồng Phát - MSSV: 235624
 - Cấu hình kết nối: sao chép `backend/.env.example` thành `backend/.env` rồi điền thông tin thật (không đưa `.env` lên GitHub)
 ## Live Deployment URLs
 - **Frontend URL:** https://frontend-235624-tranhongphat.onrender.com
+  - Triển khai trên Render, kết nối tới backend API qua biến môi trường địa chỉ backend.
 - **Backend API URL:** https://api-235624-tranhongphat.onrender.com
